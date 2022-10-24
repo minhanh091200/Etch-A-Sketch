@@ -1,0 +1,70 @@
+html {
+    background-color: bisque;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    flex-shrink: 0;
+    margin-top: 75px;
+    width: 750px;
+    height: 750px;
+    background-color: #f6834f;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    margin: 30px;
+    display: flex;
+}
+
+.size {
+    margin-right: 15px;
+}
+
+.color {
+    margin-left: 15px;
+}
+
+button {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+button:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 7px black;
+}
+
+.button-chosen {
+    background-color: black;
+    color: bisque;
+}
+
+.square {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+}
